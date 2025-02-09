@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  image-converter:
+    container_name: convert-to-webp
+    image: yestool/convert-to-webp:latest
+    ports:
+      - "8099:8080"
